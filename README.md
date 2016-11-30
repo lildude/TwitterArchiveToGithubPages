@@ -12,7 +12,7 @@
 
   `tw_consumerKey` = [the Twitter consumer key from step 3]  
   `tw_consumerSecret` = [the Twitter consumer secret from step 3]  
-  `git_clientId` = [the GitHub client ID from step 4]
+  `git_clientId` = [the GitHub client ID from step 4]  
   `git_clientSecret` = [the GitHub client secret from step 4]
   
   Click Save.
