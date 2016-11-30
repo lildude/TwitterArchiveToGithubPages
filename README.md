@@ -7,7 +7,7 @@
 1. Select the `TwitterService.gs` file from the list on the left.
 1. Copy the big long string that occurs `https://script.google.com/macros/d/[  HERE  ]/edit?usp=drive_web` and paste it into the `projectKey` field replacing the value already there.
 1. Go to https://apps.twitter.com and register a new app. There's no need to enter a valid callback URL, but you should set one. I used `http://localhost/foo`. Set the permissions to read-only, just to be safe. Take note of the consumer key and secret.
-1. Go to https://github.com/settings/applications/new and register a new OAuth app. Use the URL you noted in step 2, but end it with `/exec`. Take note of the Client ID and Client Secret.
+1. Go to https://github.com/settings/applications/new and register a new OAuth app. Copy the entire URL in step 4 and replace `edit?usp=drive_web` with `callback` and use this as the OAuth callback URL. Save your application and take note of the Client ID and Client Secret.
 1. Back on Google, go to File -> Project properties -> Script properties and add the following keys:
 
   `tw_consumerKey` = [the Twitter consumer key from step 3]  
